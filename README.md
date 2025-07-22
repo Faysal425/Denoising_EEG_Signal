@@ -12,11 +12,17 @@ The framework is robust to various artifacts (e.g., EMG, EOG, ECG, PL noise) and
 # 📁 Repository Structure
 DFA-ELM/
 ├── DFAELM_reconstruction.py # EEG reconstruction model (Stage 1)
+
 ├── DFAELM_classification.py # EEG classification model (Stage 2)
+
 ├── data/ # Folder for storing datasets (MAT/self-collected)
+
 ├── models/ # Optional: pretrained models can be stored here
+
 ├── utils/ # Optional: utility scripts (e.g., metrics, preprocessing)
+
 ├── requirements.txt # Dependencies
+
 └── README.md # Project documentation
 
 
